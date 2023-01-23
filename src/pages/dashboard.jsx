@@ -4,13 +4,13 @@ import Sidebar from "../components/sidebar";
 
 const Dashboard = () => {
   return (
-    <>
+    <div className="w-full">
       <Navbar />
       <div className="flex">
         <Sidebar />
         <ChartLine />
       </div>
-    </>
+    </div>
   );
 };
 
